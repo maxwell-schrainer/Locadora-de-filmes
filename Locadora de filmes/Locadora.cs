@@ -32,6 +32,7 @@ namespace Locadora_de_filmes
 
         }
 
+        #region Fechar aplicação
         private void locSair_Click(object sender, EventArgs e)
         {
             DialogResult FecharAplicacao = MessageBox.Show("Tem certeza que deseja fechar a aplicação?", "Fechar a aplicação?", MessageBoxButtons.YesNo);
@@ -44,5 +45,6 @@ namespace Locadora_de_filmes
                 this.Refresh();
             }
         }
+        #endregion
     }
 }
